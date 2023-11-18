@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;400;500;600;700&display=swap');
+
+body, * {
+    font-family: 'Kreon';
+    margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+/* Notifikasi */
+
+#kiri{
+	/* background-color: green; */
+	float: left;
+    width: 200px;
+	margin-left: 20px;
+
+}
+#kanan{
+	float: right;
+    width: 60px;
+	/* background-color: green;   */
+	margin-top: 10px;
+	margin-right: 20px;
+}
+#main{
+    text-align: center;
+    padding: 70px;
+}
+.wrap{
+    position: absolute;
+    width: 500px;
+    margin-left: 65%;
+	margin-top: 180px;
+    background: #F1F4FD;
+	right: 100%;
+    font-family: 'Kreon';
+    /* display: none; */
+
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 81px 33px rgba(0, 0, 0, 0.01), 0px 46px 27px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.09), 0px 5px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Notifikasi */
+
+/* Account */
+
+
+.AccountBG {
+    position: absolute;
+    width: 300px;
+    height: 480px;
+    margin-left: 80%;
+	margin-top: 180px;
+    /* BackgroundColor */
+
+    background: #F1F4FD;
+	right: 100%;
+    /* display: none; */
+    /* background-color: red; */
+    /* light grey */
+
+    
+
+    box-shadow: 0px 81px 33px rgba(0, 0, 0, 0.01), 0px 46px 27px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.09), 0px 5px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.Tampilkan {
+	right: 5%;
+	transition: .3s linear;
+}
+
+
+.AccountTitle {
+    margin-left: 10%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    
+
+    color: #404040;
+    /* background-color: red; */
+}
+
+.AccountTitleLogo {
+    float: right;
+    margin-right: 20px;
+}
+
+.AccountRataTengah {
+    /* background-color: green; */
+    width: 100%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+    
+}
+
+.AccountPerBagian {
+    /* background-color: yellow; */
+    width: 85%;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.AccountTempatLogo {
+    /* background-color: rgb(49, 48, 48); */
+    width: 60px;
+    height: 40px;
+    /* margin-left: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AccountTulisanTipis {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+}
+
+.AccountTempatNama {
+    /* background-color: blue; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    flex-wrap: wrap;
+}
+
+
+.AccountPembagianTempatNama {
+    /* background-color: red; */
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.AccountGarisBawahHeader {
+    height: 2px;
+    width: 90%;
+    background-color: #89C2D9;
+    margin-top: 4px;
+}
+
+.AccountGarisAtasFooter {
+    height: 2px;
+    width: 90%;
+    background-color: #89C2D9;
+    margin-top: 4px;
+}
+
+
+.AccountGarisBawahFooter {
+    height: 2px;
+    width: 90%;
+    background-color: #89C2D9;
+    margin-top: 4px;
+}
+
+
+/* Account */
+
+
+
+
+/* Sub Materi */
+
+.SubMateri {
+	width: 1320px;
+	height: 455px;
+	/* background-color: red; */
+	background-color: #F1F4FD;
+	position: fixed;
+	margin-top: 200px;
+	margin-left: 200px;
+	display: grid;
+	/* display: none; */
+	/* justify-content: center; */
+	align-items: center;
+	right: 100%;
+	/* visibility: hidden; */
+	box-shadow: 0px 81px 33px rgba(0, 0, 0, 0.01), 
+	0px 46px 27px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.09), 
+	0px 5px 11px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.Tampilkan {
+	right: 10%;
+	transition: .3s linear;
+}
+
+
+.SubMateriBagian {
+	/* background-color: yellow; */
+	height: 370px;
+	width: 140px;
+	margin-left: 50px;
+	font-weight: 300;
+	font-size: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+.SubMateriTitle {
+	height: 40px;
+	font-weight: 400;
+	font-size: 20px;
+	/* background-color: yellow; */
+}
+
+.SubMateriSubBagian {
+	width: 40px;
+	height: 40px;
+	/* background-color: green; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Sub Materi */
+
+
+
+
+
+
+
+
+
+
+/* Header */
+
+.HeaderFormText {
+	background-color: #D9D9D9;
+	width: 250px;
+	height: 60px;
+	border: none;
+	margin-left: 30px;
+	font-size: 30px;
+	font-family: 'Kreon', serif;
+}
+
+
+.header {
+	background-color: #DCE4FD;
+	/* background-color: yellow; */
+	position: fixed;
+	width: 100%;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0px 42px 17px rgba(11, 27, 75, 0.01), 0px 24px 14px rgba(11, 27, 75, 0.05), 0px 11px 11px rgba(11, 27, 75, 0.09), 0px 3px 6px rgba(11, 27, 75, 0.1), 0px 0px 0px rgba(11, 27, 75, 0.1);
+}
+
+.LogoHeader {
+	transform: scale(1);
+}
+
+.TempatLogoHeader {
+	height: 100px;
+	width: 300px;
+	/* margin-top: 20px; */
+	margin-left: 5%;
+	float: left;
+	/* background-color: green; */
+}
+
+.Navigasi {
+	/* background-color: red; */
+	height: 80px;
+	width: 500px;
+	/* margin-top: 20px; */
+	margin-left: 15%;
+	/* padding-top: 20px;  */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+
+.SubNavigasi {
+	width: 100px;
+	font-family: 'Kreon', serif;
+	height: 40px;
+	/* background-color: green; */
+	/* margin-top: 15px; */
+	/* margin-left: 20px; */
+	/* text-align: center; */
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	float: left;
+}
+
+.SubNavigasiFokus {
+	background: #88A3E2;
+	width: 65px;
+	margin-right: 20px;
+	display: flex;
+	justify-content: center;
+	color: white;
+	border-radius: 10px;
+}
+
+
+.FrameNya {
+	background-color: #D9D9D9;
+	font-family: 'Kreon', serif;
+	width: 350px;
+	height: 60px;
+	margin-top: 0px;
+	
+	border-radius: 20px;
+	border: none;
+	padding-top: 0px;
+	float: left;
+}
+
+.GambarKacaLup {
+	transform: scale(2.5);
+	margin-left: 30px;
+	margin-top: 20px;
+	float: left;
+}
+
+.SearchDanAkun {
+	/* background-color: red; */
+	height: 80px;
+	width: 700px;
+	margin-left: 3%;
+	/* margin-top: 30px; */
+	float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+a {
+	color: black;
+}
+
+.Akun {
+	/* background: #F1F4FD; */
+	width: 120px;
+	height: 50px;
+	margin-left: 155px;
+	/* margin-top: 6px; */
+	float: left;
+	font-family: 'Kreon', serif;
+	font-size: 30px;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	color: black;
+}
+
+.HeaderTombolDaftar {
+	font-family: 'Kreon', serif;
+	background-color: #88A3E2;
+	margin-left: 0px;
+	color:#F1F4FD;
+}
+
+.Jarak {
+	margin-left: 20px;
+}
+
+/* Header */
+
+.Pembatas {
+	background-color: pink;
+	height: 150px;
+	width: 100%;
+}
+
+
+
+
+/* Intermediate */
+
+form {
+    width: 800px;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+	border: none;
+}
+
+button {
+	border: none; 
+}
+
+.ElementaryKontenSatuTombolBerlangganan {
+
+	width: 350px;
+	height: 50px;
+	background: #88A3E2;
+	/* blue */
+
+	border-radius: 5px;
+}
+
+button[type= submit] {
+	background: none;
+	text-align: left;
+}
+
+.Intermediate {
+    height: 3100px;
+    width: 100%;
+    /* background-color: red; */
+    background-color: #F1F4FD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.IntermediatePerBagian {
+    width: 90%;
+    height: 60px;
+    /* background-color: green; */
+    display: flex;
+	
+}
+
+.Satu {
+    height: 300px;
+}
+
+.Dua {
+    height: 44px;
+}
+
+.Tiga {
+	width: 98%;
+    height: 117px;
+    display: flex;  
+	/* background-color: green; */
+	padding: 0; 
+}
+
+.Empat {
+    height: 94px;
+	text-align: center;
+	display: grid;
+}
+
+.Lima {
+    height: 168px;
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	border: 2px solid #A6A6A6;
+}
+
+.IntermediateSubBagianLima {
+	/* background-color: yellow; */
+	height: 80px;
+	min-width: 90%;
+	margin-left: 30px;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: grid;
+}
+
+.IntermediateSubBagianLimaRataBawah {
+	display: flex;
+	align-items: flex-end;
+}
+
+.IntermediateSubBagianSubLima {
+	width: 30px;
+	height: 30px;
+	/* background-color: red; */
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.IntermediateSubKontenTiga {
+    width: 400px;
+    height: 117px;
+    border: 2px solid #A6A6A6;
+    margin-left: auto;
+	margin-right: auto;
+    display: flex;
+	border-radius: 20px;
+}
+
+.IntermediateSubKontenSubTiga {
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.IntermediateSubKontenSubTigaDeskripsi {
+    height: 80px;
+    width: 300px;
+	
+}
+
+.IntermediateSubKontenSubTigaSubDeskripsi {
+    /* background-color: yellow; */
+    height: 40px;
+    width: 300px;
+	
+}
+ 
+
+.IntermediateCoverBuku {
+    width: 300px;
+    height: 300px;
+    /* background-color: red; */
+}
+
+.IntermediateKontenSatu {
+    height: 300px;
+    width: 100%;
+    /* background-color: yellow; */
+}
+
+.IntermediateSubKontenSatu {
+    height: 100px;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+
+/* Intermediate */
+
+
+
+/* footer */
+
+.JarakLogoFooter {
+	margin-left: 10px;
+}
+
+.GarisAtasFooter {
+	width: 90%;
+	height: 2px;
+	margin-left: 5%;
+}
+
+.GarisBawahFooter {
+	width: 90%;
+	height: 2px;
+	margin-left: 5%;
+	margin-top: 20px;
+}
+
+.Footer {
+	font-family: 'Kreon', serif;
+	/* background-color: red; */
+	background-color: #F1F4FD;
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+
+
+
+.FooterKonten {
+	/* background-color: red; */
+	width: 320px;
+	height: 300px;
+	float: left;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+
+.FooterPalingKiri {
+	/* background-color: red; */
+	width: 320px;
+	height: 300px;
+	float: left;
+	margin-left: 9%;
+	margin-top: 20px;
+}
+
+
+.FooterTempatTitleAlamatDanLinks {
+	/* background-color: green; */
+	width: 320px;
+	height: 40px;
+	float: left;
+	margin-left: 23px;
+	font-size: 25px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.FooterTempatNamaCourse {
+	/* background-color: green; */
+	/* width: 250px; */
+	height: 40px;
+	float: left;
+	margin-left: 23px;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.FooterTempatDefinisiCourse {
+	/* background-color: green; */
+	/* width: 250px; */
+	height: 40px;
+	float: left;
+	margin-left: 23px;
+	font-size: 20px;
+	font-weight: 200;
+	
+}
+
+
+.FooterTempatKonten {
+	/* background-color: green; */
+	width: 290px;
+	height: 40px;
+	float: left;
+	margin-left: 23px;
+}
+
+.FooterTempatLogoKonten {
+	/* background-color: green; */
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 23px;
+}
+
+.FooterTempatLinks {
+	/* background-color: green; */
+	width: 100px;
+	height: 150px;
+	float: left;
+	margin-left: 120px;
+	font-size: 25px;
+	font-weight: 200;
+	text-align: left;
+}
+
+.FooterTempatDeskripsiKonten {
+	/* background-color: green; */
+	width: 320px;
+	height: 150px;
+	float: left;
+	margin-left: 23px;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.FooterCopyright {
+	/* background-color: pink; */
+	width: 180px;
+	height: 20px;
+	margin-left: 130px;
+	margin-top: 10px;
+}
+
+
+/* footer */
